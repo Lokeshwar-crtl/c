@@ -10,11 +10,11 @@ int main()
 
      for(i=0; i<n; ++i)
      {
-          printf("Enter number%d: ",i+1);
+          printf("Enter number : %d",i+1);
           scanf("%d", &marks[i]);
           
           // adding integers entered by the user to the sum variable
-          sum += marks[i];
+          sum += marks[i];//(sum = sum + marks[i])
      }
 
      average = sum/n;
