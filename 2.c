@@ -13,8 +13,8 @@ int main()
      */
     for (x=0; x<4;x++)
     {
-        printf("Enter number %d \n", (x+1));
-        scanf("%d", &num[x]);
+        printf("Enter number : %d", (x+1));
+        scanf("%d\n", &num[x]);
     }
     for (x=0; x<4;x++)
     {
@@ -22,6 +22,6 @@ int main()
     }
 
     avg = sum/4;
-    printf("Average of entered number is: %d", avg);
+    printf("Average of entered number is: %d ", avg);
     return 0;
 }
